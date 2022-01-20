@@ -1,0 +1,458 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.nav-link{
+    width: 80%;
+    display: flex;
+    color: grey;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-right: 250px;
+    margin-top: -3%;
+    justify-content: space-between;
+}
+
+.miseforme:hover{
+    color:black;
+}
+.miseforme{
+    color:white;
+}
+header{
+    margin-top: 0;
+    width: 100%;
+    height: 13vh;
+    position: fixed;
+    margin-top: -20%;
+    background-color: #637fd4;
+    opacity: 0.9;
+    z-index: 1000;
+}
+main{
+    height: 1000vh;
+    width: 100%;
+}
+#sec1{
+    width: 100%;
+    margin-top: 20%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 100% 50%;
+}
+.firstone{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+header ul{
+    list-style-type: none;
+}
+header li{
+    text-decoration: none;
+}
+.right{
+    float: right;
+}
+/* fin header */
+/* debut section 1 */
+#p1{
+    width: 90%;
+    height: 90%;
+    float: right;
+    margin-right: 20%;
+    margin-top: 17%;
+}
+.bigger{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.litlebigger{
+    font-size: 50px;
+    color: grey;
+}
+.parag{
+    margin-left: 5%;
+    float: left;
+    width: 40%;
+    height: 80vh;
+    margin-top: -10%;
+}
+.ontheright{
+    margin: 0;
+    margin-left: -80%;
+    margin-top: -30%;
+    width: 70vh;
+    height: 70vh;
+}
+#buttomoff{
+    font-size: 18px;
+    font-family: helvetica;
+}
+#button{
+    background: white;
+    width: 200px;
+    height: 40px;
+    margin-left: 5%;
+}
+#button:hover{
+    background-color: black;
+    color: white;
+}
+#outils{
+    width: 60%;
+    float: right;
+    margin-top: -35%;
+    margin-right: 20%;
+}
+/* fin section 1 */
+/* debut section 2 */
+#sec2{
+    width: 100%;
+    height: 60vh;
+    margin-top: 10%;
+    background-color: #637fd4;
+    display: flex;
+    flex-direction: row;
+}
+.block{
+    width: 17%;
+    height: 70%;
+    background-color: white;
+    justify-content: space-between;
+    margin-left: 4%;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blue{
+    color:  #637fd4;
+}
+/* fin section 2 */
+/* debut section 3 */
+#sec3{
+    width: 100%;
+    height: 60vh;
+    margin-top: 5%;
+}
+#propos{
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    height: 80%;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin-bottom: -10%;
+}
+#button2{
+    background: #637fd4;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+#button2:hover{
+    background-color: white;
+    color: #637fd4;
+}
+/* fin section 3 */
+/* debut section 4 */
+#sec4{
+    width: 100%;
+    height: 120vh;
+    background-image: url(images/p4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20%;
+
+}
+#encadrement{
+    color: white;
+    background-color: #637fd4;
+    width: 30%;
+    height: 65%;
+    border: solid 5px yellow;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+#up{
+    letter-spacing: 5px;
+    font-size: x-large;
+    font-family: bold;
+    align-items: center;
+}
+#down{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#hr{
+    width: 50%;
+    color: yellow;
+    border: solid 8px yellow;
+}
+/* fin section 4 */
+/* debut section 5 */
+#sec5{
+    width: 100%;
+    height: 120vh;
+    background-image: url(images/peinture1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20%;
+
+}
+.title{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+}
+.left{
+    width: 50%;
+    margin-left: 3%;
+    letter-spacing: 1px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services{
+    width: 25%;
+    height: 50%;
+    background-color: wheat;
+    margin-left: 5%;
+    display: inline-block;
+}
+#peinturepic{
+    width: 80%;
+    height: 50%;
+    margin-top: 10%;
+}
+.yellow{
+    color: orange;
+    font-size: large;
+    font-family: Helvetica, sans-serif;
+}
+.dowwn{
+    font-size: medium;
+    letter-spacing: 1px;
+}
+/* fin section 5 */
+/* debut section 6 */
+#sec6{
+    width: 100%;
+    height: 150vh;
+    background-color: black;
+    margin-top: 10%;
+
+}
+.soustitre{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.repa{
+    width: 25%;
+    height: 30%;
+    margin-left: 5%;
+    display: inline-block;
+    margin-top: 5%;
+}
+.allservices{
+    font-size: 30px;
+    color: #637fd4;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sousservices{
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+#blue{
+    color: #637fd4;
+    background-color: black;
+    border: solid 2px #637fd4;
+    width: 12%;
+    height: 30px;
+    margin-left: 40%;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#blue:hover{
+    color: #637fd4;
+    background-color: white;
+    border: solid 2px #637fd4;
+    width: 12%;
+    height: 30px;
+    margin-left: 40%;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* fin section 6 */
+/* debut section 7 */
+#sec7{
+    width: 100%;
+    height: 100vh;
+    margin-top: 10%;
+    display: flex;
+
+}
+.num1{
+    background-color: rgb(219, 222, 255);
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+
+}
+.num2{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+
+}
+.propos{
+    font-size: 45px;
+    margin-top: 200px;
+}
+.carreau{
+    width: 60%;
+    height: 40%;
+    margin-top: 40%;
+    margin-left: 25%;
+}
+.sousporpos{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+#button3{
+    background: white;
+    width: 200px;
+    height: 40px;
+    letter-spacing: 2PX;
+}
+#button3:hover{
+    background-color: black;
+    color: white;
+}
+#p6{
+    width: 70%;
+    height: 50%;
+    margin-left: 45%;
+    margin-top: 20%;
+    background-color: brown;
+}
+.bgblue{
+    background-color: #637fd4;
+    width: 70%;
+    height: 50%;
+    margin-left: 35%;
+    margin-top: -45%;
+}
+/* fin section 7 */
+/* debut section 8 */
+#sec8{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+.first{
+    z-index: 1;
+}
+.bluecarr{
+    background-color: #637fd4;
+    width: 75%;
+    height: 50%;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+.bigttitle{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    letter-spacing: 1px;
+    margin-left: 5%;
+    font-weight: bold;
+}
+.answers{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 5%;
+
+}
+.whitecarr{
+    background-color: white;
+    width: 75%;
+    height: 65%;
+    margin-top: 5%;
+
+}
+.inpuut{
+    margin-left: 40%;
+    width: 50%;
+    border: 0;
+}
+#hr2{
+    width: 70%;
+    color: black;
+    border: solid 1px black;
+    margin-left: 30%;
+}
+#boombutton{
+    width: 20%;
+    height: 35px;
+    margin-left: 30%;
+    background-color: white;
+    border: black solid 1px;
+}
+#boombutton:hover{
+    width: 20%;
+    height: 35px;
+    margin-left: 30%;
+    background-color: #637fd4;
+    border: white solid 1px;
+    color: white;
+}
+/* fin main */
+/* debut footer */
+#footer{
+    background-color: grey;
+    width: 100%;
+    height: 30vh;
+    margin-top: -15%;
+    
+
+
+}
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+  }
+#footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+  }
+
+
+@media (max-width:320px) {
+    .bigger{
+        width: 100%;
+        font-size: 20px;
+        height: 20%;
+    }
+    
+}
+
